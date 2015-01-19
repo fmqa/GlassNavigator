@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Navigator</string>
+    <string name="title_activity_main">Navigator</string>
+    <string name="title_activity_sonar">Show stops</string>
+    <string name="title_activity_route">Plan route</string>
+
+    <string name="sonar_url">
+        https://studi.f4.htw-berlin.de/~s0539502/vbb/api/proximity.cgi?&amp;distance={distance}&amp;lat={lat}&amp;lon={lon}
+    </string>
+</resources>
