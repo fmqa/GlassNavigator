@@ -32,6 +32,7 @@ public class ProximityTask extends AsyncTask<Void, Void, RelativeStop[]> {
     @Override
     protected void onPostExecute(RelativeStop[] o) {
         super.onPostExecute(o);
+        listener.postProximityRequest(o);
     }
 
     @Override
@@ -42,6 +43,7 @@ public class ProximityTask extends AsyncTask<Void, Void, RelativeStop[]> {
     @Override
     protected void onPreExecute() {
         super.onPreExecute();
+        listener.preProximityRequest();
     }
 
     private final String url;
